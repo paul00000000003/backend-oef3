@@ -8,4 +8,4 @@ def test_main():
     assert response.data == b'Hello, world!'
     response = app.test_client().get('/cow')
     assert response.status_code == 200
-    assert response.data == b'MOooxOo!'
+    assert response.data == b'MOoooOo!'
