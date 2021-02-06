@@ -14,3 +14,8 @@ def index():
 @app.route('/cow')
 def cow():
     return 'MOoooOo!'
+
+
+@app.route('/bijnajarig')
+def bijnajarig():
+    return 'bijnajarig!'

@@ -9,3 +9,6 @@ def test_main():
     response = app.test_client().get('/cow')
     assert response.status_code == 200
     assert response.data == b'MOoooOo!'
+    response = app.test_client().get('/bijnajarig')
+    assert response.status_code == 200
+    assert response.data == b'bijnajarig!'
