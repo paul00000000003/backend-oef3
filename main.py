@@ -18,4 +18,4 @@ def cow():
 
 @app.route('/bijnajarig')
 def bijnajarig():
-    return 'almostb-d!'
+    return 'almost-b-d!'
